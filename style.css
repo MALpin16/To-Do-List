@@ -6,10 +6,8 @@
     font-family: Poppins, sans-serif;
     box-sizing: border-box;
 }
-body{
-    overflow: hidden;
-}
 .container{
+    overflow: hidden;
     width: 100%;
     height: auto;
     min-height: 100vh;
