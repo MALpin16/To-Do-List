@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>Malvino To Do List <img src="image/checklist.png"  alt="checklist"> </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Tambahkan list...">
+                <button onclick="addTask()"><i class="ri-add-line"></i></button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+            <span></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
