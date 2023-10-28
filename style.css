@@ -6,11 +6,9 @@
     font-family: Poppins, sans-serif;
     box-sizing: border-box;
 }
-/* body{
-    width: auto;
-    display: flex;
-    flex-direction: column;
-} */
+body{
+    overflow: hidden;
+}
 .container{
     width: 100%;
     height: auto;
